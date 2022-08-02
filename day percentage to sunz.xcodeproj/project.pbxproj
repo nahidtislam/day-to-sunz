@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		253875C02801AB64006E4D45 /* Day_Percentage_To_SunzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253875B02801AB62006E4D45 /* Day_Percentage_To_SunzApp.swift */; };
+		253875C12801AB64006E4D45 /* Day_Percentage_To_SunzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253875B02801AB62006E4D45 /* Day_Percentage_To_SunzApp.swift */; };
+		253875C22801AB64006E4D45 /* CalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253875B12801AB62006E4D45 /* CalculationView.swift */; };
+		253875C32801AB64006E4D45 /* CalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253875B12801AB62006E4D45 /* CalculationView.swift */; };
+		253875C42801AB64006E4D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 253875B22801AB64006E4D45 /* Assets.xcassets */; };
+		253875C52801AB64006E4D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 253875B22801AB64006E4D45 /* Assets.xcassets */; };
+		253875CF2801ABFB006E4D45 /* CalculationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253875CE2801ABFB006E4D45 /* CalculationViewModel.swift */; };
+		253875D02801ABFB006E4D45 /* CalculationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253875CE2801ABFB006E4D45 /* CalculationViewModel.swift */; };
+		253875D22801AC35006E4D45 /* CalculationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253875D12801AC35006E4D45 /* CalculationModel.swift */; };
+		253875D32801AC35006E4D45 /* CalculationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253875D12801AC35006E4D45 /* CalculationModel.swift */; };
+		253875D52801B048006E4D45 /* View+MacWindowSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253875D42801B048006E4D45 /* View+MacWindowSize.swift */; };
+		253875D62801B048006E4D45 /* View+MacWindowSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253875D42801B048006E4D45 /* View+MacWindowSize.swift */; };
+		253875DA280313F9006E4D45 /* Date+InitFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253875D9280313F9006E4D45 /* Date+InitFromString.swift */; };
+		253875DB280313F9006E4D45 /* Date+InitFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253875D9280313F9006E4D45 /* Date+InitFromString.swift */; };
+		253875DD2803387E006E4D45 /* FloatingPoint+BeforeAndAfterDecimalPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253875DC2803387E006E4D45 /* FloatingPoint+BeforeAndAfterDecimalPoint.swift */; };
+		253875DE2803387E006E4D45 /* FloatingPoint+BeforeAndAfterDecimalPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253875DC2803387E006E4D45 /* FloatingPoint+BeforeAndAfterDecimalPoint.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		253875B02801AB62006E4D45 /* Day_Percentage_To_SunzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_Percentage_To_SunzApp.swift; sourceTree = "<group>"; };
+		253875B12801AB62006E4D45 /* CalculationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationView.swift; sourceTree = "<group>"; };
+		253875B22801AB64006E4D45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		253875B72801AB64006E4D45 /* day percentage to sunz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "day percentage to sunz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		253875BD2801AB64006E4D45 /* day percentage to sunz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "day percentage to sunz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		253875BF2801AB64006E4D45 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		253875CE2801ABFB006E4D45 /* CalculationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewModel.swift; sourceTree = "<group>"; };
+		253875D12801AC35006E4D45 /* CalculationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationModel.swift; sourceTree = "<group>"; };
+		253875D42801B048006E4D45 /* View+MacWindowSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+MacWindowSize.swift"; sourceTree = "<group>"; };
+		253875D72801E73A006E4D45 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		253875D9280313F9006E4D45 /* Date+InitFromString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+InitFromString.swift"; sourceTree = "<group>"; };
+		253875DC2803387E006E4D45 /* FloatingPoint+BeforeAndAfterDecimalPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+BeforeAndAfterDecimalPoint.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		253875B42801AB64006E4D45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253875BA2801AB64006E4D45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		253875AA2801AB62006E4D45 = {
+			isa = PBXGroup;
+			children = (
+				253875D8280313B1006E4D45 /* Extensions */,
+				253875AF2801AB62006E4D45 /* Shared */,
+				253875BE2801AB64006E4D45 /* macOS */,
+				253875B82801AB64006E4D45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		253875AF2801AB62006E4D45 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				253875B02801AB62006E4D45 /* Day_Percentage_To_SunzApp.swift */,
+				253875B12801AB62006E4D45 /* CalculationView.swift */,
+				253875D12801AC35006E4D45 /* CalculationModel.swift */,
+				253875CE2801ABFB006E4D45 /* CalculationViewModel.swift */,
+				253875D72801E73A006E4D45 /* Playground.playground */,
+				253875B22801AB64006E4D45 /* Assets.xcassets */,
+				253875D42801B048006E4D45 /* View+MacWindowSize.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		253875B82801AB64006E4D45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				253875B72801AB64006E4D45 /* day percentage to sunz.app */,
+				253875BD2801AB64006E4D45 /* day percentage to sunz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		253875BE2801AB64006E4D45 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				253875BF2801AB64006E4D45 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		253875D8280313B1006E4D45 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				253875D9280313F9006E4D45 /* Date+InitFromString.swift */,
+				253875DC2803387E006E4D45 /* FloatingPoint+BeforeAndAfterDecimalPoint.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		253875B62801AB64006E4D45 /* day percentage to sunz (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 253875C82801AB64006E4D45 /* Build configuration list for PBXNativeTarget "day percentage to sunz (iOS)" */;
+			buildPhases = (
+				253875B32801AB64006E4D45 /* Sources */,
+				253875B42801AB64006E4D45 /* Frameworks */,
+				253875B52801AB64006E4D45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "day percentage to sunz (iOS)";
+			productName = "day percentage to sunz (iOS)";
+			productReference = 253875B72801AB64006E4D45 /* day percentage to sunz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		253875BC2801AB64006E4D45 /* day percentage to sunz (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 253875CB2801AB64006E4D45 /* Build configuration list for PBXNativeTarget "day percentage to sunz (macOS)" */;
+			buildPhases = (
+				253875B92801AB64006E4D45 /* Sources */,
+				253875BA2801AB64006E4D45 /* Frameworks */,
+				253875BB2801AB64006E4D45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "day percentage to sunz (macOS)";
+			productName = "day percentage to sunz (macOS)";
+			productReference = 253875BD2801AB64006E4D45 /* day percentage to sunz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		253875AB2801AB62006E4D45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					253875B62801AB64006E4D45 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					253875BC2801AB64006E4D45 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 253875AE2801AB62006E4D45 /* Build configuration list for PBXProject "day percentage to sunz" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 253875AA2801AB62006E4D45;
+			productRefGroup = 253875B82801AB64006E4D45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				253875B62801AB64006E4D45 /* day percentage to sunz (iOS) */,
+				253875BC2801AB64006E4D45 /* day percentage to sunz (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		253875B52801AB64006E4D45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253875C42801AB64006E4D45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253875BB2801AB64006E4D45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253875C52801AB64006E4D45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		253875B32801AB64006E4D45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253875CF2801ABFB006E4D45 /* CalculationViewModel.swift in Sources */,
+				253875D22801AC35006E4D45 /* CalculationModel.swift in Sources */,
+				253875DA280313F9006E4D45 /* Date+InitFromString.swift in Sources */,
+				253875DD2803387E006E4D45 /* FloatingPoint+BeforeAndAfterDecimalPoint.swift in Sources */,
+				253875C22801AB64006E4D45 /* CalculationView.swift in Sources */,
+				253875C02801AB64006E4D45 /* Day_Percentage_To_SunzApp.swift in Sources */,
+				253875D52801B048006E4D45 /* View+MacWindowSize.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253875B92801AB64006E4D45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253875D02801ABFB006E4D45 /* CalculationViewModel.swift in Sources */,
+				253875D32801AC35006E4D45 /* CalculationModel.swift in Sources */,
+				253875DB280313F9006E4D45 /* Date+InitFromString.swift in Sources */,
+				253875DE2803387E006E4D45 /* FloatingPoint+BeforeAndAfterDecimalPoint.swift in Sources */,
+				253875C32801AB64006E4D45 /* CalculationView.swift in Sources */,
+				253875C12801AB64006E4D45 /* Day_Percentage_To_SunzApp.swift in Sources */,
+				253875D62801B048006E4D45 /* View+MacWindowSize.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		253875C62801AB64006E4D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		253875C72801AB64006E4D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		253875C92801AB64006E4D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Z9K3X8K7Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nahid-synth-calcs.day-percentage-to-sunz";
+				PRODUCT_NAME = "day percentage to sunz";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		253875CA2801AB64006E4D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Z9K3X8K7Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nahid-synth-calcs.day-percentage-to-sunz";
+				PRODUCT_NAME = "day percentage to sunz";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		253875CC2801AB64006E4D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Z9K3X8K7Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nahid-synth-calcs.day-percentage-to-sunz";
+				PRODUCT_NAME = "day percentage to sunz";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		253875CD2801AB64006E4D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Z9K3X8K7Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nahid-synth-calcs.day-percentage-to-sunz";
+				PRODUCT_NAME = "day percentage to sunz";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		253875AE2801AB62006E4D45 /* Build configuration list for PBXProject "day percentage to sunz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253875C62801AB64006E4D45 /* Debug */,
+				253875C72801AB64006E4D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		253875C82801AB64006E4D45 /* Build configuration list for PBXNativeTarget "day percentage to sunz (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253875C92801AB64006E4D45 /* Debug */,
+				253875CA2801AB64006E4D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		253875CB2801AB64006E4D45 /* Build configuration list for PBXNativeTarget "day percentage to sunz (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253875CC2801AB64006E4D45 /* Debug */,
+				253875CD2801AB64006E4D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 253875AB2801AB62006E4D45 /* Project object */;
+}
