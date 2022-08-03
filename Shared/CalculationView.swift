@@ -28,14 +28,10 @@ struct CalculationView: View {
             DatePicker("day:", selection: $vm.model.targetDate)
                 .onHover { isHovering in
                     if !isHovering {
-                        let c: Calendar = .current
-                        let sec = c.ordinality(of: .second, in: .day, for: vm.model.targetDate)!
-                        
-                        vm.sliderValue = Double(sec) / (3600 * 24)
+                        vm.refreshTime()
                     }
                 }
-//                .datePickerStyle(.field)
-//            pic
+            
             ZStack {
                 RoundedRectangle(cornerRadius: 12, style: .continuous)
                     .frame(width: 150, height: 150)
@@ -45,7 +41,6 @@ struct CalculationView: View {
                             .frame(width: 20, height: 20)
                             .offset(
                                 x: (vm.sliderValue * 100) - 50,
-//                                x: vm.results.azimuth * 15 * Double.pi,
                                 y: -vm.results.elevation * 25 * Double.pi
                             )
                             .foregroundColor(.white)
@@ -67,15 +62,14 @@ struct CalculationView: View {
             
             Text("azimuth: \(vm.azimuthDisplay)")
             Text("elevation: \(vm.elevationDisplay)")
-//            Text("some time: \(vm.model.coomputeSunsetTime(azimuth: vm.results.azimuth, elevation: vm.results.elevation))")
         }
         .padding()
         .macWindowSize(width: 400...700)
-//        .frame(minWidth: 250, maxWidth: 700)
     }
     
     var sunSetRiseTexts: some View {
         VStack {
+            // TODO: get sunrise & sunset calculations to display here
             Text("sunrise: {x}")
             Text("sunset: {x}")
         }

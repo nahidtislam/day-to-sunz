@@ -84,6 +84,13 @@ class CalculationViewModel: ObservableObject {
         model.targetDate = new
     }
     
+    func refreshTime() {
+        let c = Calendar.current
+        let sec = c.ordinality(of: .second, in: .day, for: model.targetDate)!
+        
+        sliderValue = Double(sec) / (3600 * 24)
+    }
+    
     func roundToNearestPercent() {
         sliderValue = percentage.rounded() / 100
     }
