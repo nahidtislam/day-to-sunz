@@ -31,22 +31,7 @@ struct CalculationView: View {
                         vm.refreshTime()
                     }
                 }
-            
-            ZStack {
-                RoundedRectangle(cornerRadius: 12, style: .continuous)
-                    .frame(width: 150, height: 150)
-                    .foregroundColor(.red)
-                    .overlay {
-                        Circle()
-                            .frame(width: 20, height: 20)
-                            .offset(
-                                x: (vm.sliderValue * 100) - 50,
-                                y: -vm.results.elevation * 25 * Double.pi
-                            )
-                            .foregroundColor(.white)
-                            .shadow(radius: 12)
-                    }
-            }
+            sunGraph
             Slider(value: $vm.sliderValue, in: 0...0.99999) {
                 Text("percent: ")
             }
@@ -65,6 +50,24 @@ struct CalculationView: View {
         }
         .padding()
         .macWindowSize(width: 400...700)
+    }
+    
+    var sunGraph: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                .frame(width: 150, height: 150)
+                .foregroundColor(.red)
+                .overlay {
+                    Circle()
+                        .frame(width: 20, height: 20)
+                        .offset(
+                            x: (vm.sliderValue * 100) - 50,
+                            y: -vm.results.elevation * 25 * Double.pi
+                        )
+                        .foregroundColor(.white)
+                        .shadow(radius: 12)
+                }
+        }
     }
     
     var sunSetRiseTexts: some View {
