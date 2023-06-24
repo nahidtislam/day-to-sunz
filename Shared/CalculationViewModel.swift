@@ -32,7 +32,8 @@ class CalculationViewModel: ObservableObject {
 //        String(format: "%.2fπ", results.azimuth / Double.pi)
     }
     var elevationDisplay: String {
-        String(format: "%.2f", results.elevation)
+        results.elevation.roundTo(decimalPlace: 2)
+//        String(format: "%.2f", results.elevation)
 //        String(format: "%.2fπ", results.elevation / Double.pi)
     }
     
@@ -93,5 +94,11 @@ class CalculationViewModel: ObservableObject {
     
     func roundToNearestPercent() {
         sliderValue = percentage.rounded() / 100
+    }
+}
+
+private extension Double {
+    func roundTo(decimalPlace: Int) -> String {
+        .init(format: "%.\(decimalPlace)f", self)
     }
 }

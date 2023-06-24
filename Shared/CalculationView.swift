@@ -35,18 +35,20 @@ struct CalculationView: View {
             Slider(value: $vm.sliderValue, in: 0...0.99999) {
                 Text("percent: ")
             }
-            .onChange(of: vm.sliderValue, perform: { newValue in
+            .onChange(of: vm.sliderValue) { newValue in
                 vm.updateTimeInDate()
-            })
+            }
             .padding(.horizontal, 16)
             
-            Text("\(vm.percentDisplay) (\(vm.timeOfDay))")
-                .onTapGesture {
-                    vm.roundToNearestPercent()
-                }
-            
-            Text("azimuth: \(vm.azimuthDisplay)")
-            Text("elevation: \(vm.elevationDisplay)")
+            Section {
+                Text("\(vm.percentDisplay) (\(vm.timeOfDay))")
+                    .onTapGesture {
+                        vm.roundToNearestPercent()
+                    }
+                
+                Text("azimuth: \(vm.azimuthDisplay)")
+                Text("elevation: \(vm.elevationDisplay)")
+            }
         }
         .padding()
         .macWindowSize(width: 400...700)

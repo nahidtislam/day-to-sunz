@@ -15,7 +15,7 @@ struct CalculationModel {
     static let egDate: Date = {
         let year = Calendar.current.component(.year, from: Date())
         
-        return Date("23/07/\(year)", withFormat: "dd/MM/yyyy")!
+        return Date("23/12/\(year)", withFormat: "dd/MM/yyyy")!
     }()
     
     var targetDate = CalculationModel.egDate
@@ -38,7 +38,7 @@ struct CalculationModel {
     
     @available(*, deprecated, message: "result is inaccurate")
     func angle(hour: Double) -> Double {
-        // https://solarsena.com/solar-azimuth-angle-calculator-sol ar-panels/
+        // https://solarsena.com/solar-azimuth-angle-calculator-solar-panels/
         let hr = (15 * Double.pi / 180) * (hour - 12)
         let dec: Double = {
             let magicRad = rad(fromDeg: -23.44)
@@ -58,6 +58,7 @@ struct CalculationModel {
         return ((sin(dec) * cos(latitude)) - (cos(dec) * sin(latitude) * cos(hr))) / solarElevationAngle
     }
     
+    @available(*, deprecated, message: "result doesn't take an account of time of year")
     func compute(hr: Int, min: Int = 0) -> (elevation: Double, azimuth: Double) {
         let hourDecimal: Double = {
             let hourPart = Double(Swift.min(hr, 23))
